@@ -1,0 +1,12 @@
+{
+  "name": "metalsmith-clean-utf8",
+  "version": "0.1.0",
+  "description": "metalsmith plugin to clean utf8 string",
+  "main": "index.js",
+  "scripts": {},
+  "author": "zhangmhao@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.6.1"
+  }
+}
