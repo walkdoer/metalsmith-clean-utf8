@@ -1,5 +1,4 @@
-# metalsmith-markdown
-
+# metalsmith-clean-utf8
   A Metalsmith plugin to clean utf8 string
 
 ## Installation
