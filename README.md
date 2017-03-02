@@ -1,4 +1,3 @@
-i
 # metalsmith-markdown
 
   A Metalsmith plugin to clean utf8 string
