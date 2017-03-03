@@ -23,7 +23,7 @@ function plugin(options){
       if (!markdown(file)) return;
       var data = files[file];
       var str = data.contents.toString();
-      str = str.replace(/[\x00-\x1F\x7F-\x9F]/ug, '');
+      str = str.replace(/[\x00-\x09\x0B-\x0C\x0E-\x1F\x7F-\x9F]/ug, '');
       data.contents = new Buffer(str);
       
       done();
